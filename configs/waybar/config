@@ -1,0 +1,9 @@
+{
+  "layer": "top",
+  "position": "top",
+  "modules-left": ["clock", "cpu", "memory"],
+  "modules-center": [],
+  "modules-right": ["pulseaudio", "network", "battery"],
+  "clock": { "format": "%a %b %d %R" },
+  "battery": { "format": "{capacity}% {icon}", "format-icons": ["", "", "", "", ""] }
+}
